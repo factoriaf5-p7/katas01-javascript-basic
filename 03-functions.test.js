@@ -48,16 +48,19 @@ describe("Funciones en JavaScript", () => {
   // BONUS: Crea un test que te permita testear la función que verás a continuación. Para ello, también te hemos proporcionado las variables que necesitarás (y alguna más que no necesitarás, para confundir :P).
   // Recuerda quitar la puntuación de comentario (/* ... */) para que este código a continuación sea legible, e inclúyelo dentro de tu test.
   it("Test Bonus", () => {
-  let userName = "Ariana28";
-  let userAge = 38;
-  let userEmail = "ariana_28@gmail.com";
-  let userLocation = "Barcelona";
-  let userIsRegistered = true;
-  let password = "p4s$w0rDs3guR0";
+    let userName = "Ariana28";
+    let userAge = 38;
+    let userEmail = "ariana_28@gmail.com";
+    let userLocation = "Barcelona";
+    let userIsRegistered = true;
+    let password = "p4s$w0rDs3guR0";
 
-  function userAuth(userName, userEmail, password) {
-    return `Welcome ${userName}, your email is ${userEmail} and your password is ${password}.`;
-  }
-  assert.strictEqual(userAuth(userName, userEmail, password),"Welcome Ariana28, your email is ariana_28@gmail.com and your password is p4s$w0rDs3guR0.");
-});
+    function userAuth(userName, userEmail, password) {
+      return `Welcome ${userName}, your email is ${userEmail} and your password is ${password}.`;
+    }
+    assert.strictEqual(
+      userAuth(userName, userEmail, password),
+      "Welcome Ariana28, your email is ariana_28@gmail.com and your password is p4s$w0rDs3guR0."
+    );
+  });
 });
