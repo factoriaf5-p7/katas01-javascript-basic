@@ -147,7 +147,7 @@ describe("Operaciones con JavaScript", () => {
     // Escribe aquí tu código
     let a = 10;
     let b = 100;
-    let c = undefined;
+    let c = undefined
     let d = "Hello";
     let e = "Elephant"
     assert.strictEqual(a > 9, true);
