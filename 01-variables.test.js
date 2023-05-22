@@ -11,7 +11,8 @@ TIP: Si consideras que hay demasiada información en el terminal, puedes probar 
 
 describe("Variables en JavaScript", () => {
    it("Pueden contener strings", () => {
-
+        const a = 'Hello!';
+        const b = 'Somos la P7';
         // Escribe aquí tu código para hacer pasar el "assert" del test
 
         assert.strictEqual(a, "Hello!");
@@ -19,12 +20,16 @@ describe("Variables en JavaScript", () => {
     })
 
    it("Pueden contener numeros", () => {
+        const c = 2;
+        const d = 1498;
         // Escribe aquí tu código
         assert.strictEqual(c,2);
         assert.strictEqual(d,1498);
     })
 
     it("Pueden contener booleanos", () => {
+        const e = true;
+        const f = false;
         // Escribe aquí tu código
 
         assert.strictEqual(e,true);
@@ -32,6 +37,8 @@ describe("Variables en JavaScript", () => {
     })
 
      it("Pueden contener decimales", () => {
+        const g = 1.45;
+        const h = 45.99999;
         // Escribe aquí tu código
 
         assert.strictEqual(g,1.45);
@@ -44,30 +51,41 @@ describe("Variables en JavaScript", () => {
 
 describe("Operaciones aritmeticas en JavaScript", () => {
     it("Suma", () => {
+        const i = 49;
+        const j = 51
         // Escribe aquí tu código
 
         assert.strictEqual(i+j,100);
     })
 
     it("Resta", () => {
+        const k = 20;
+        const l = 10;
         // Escribe aquí tu código
 
         assert.strictEqual(k-l,10);
     })
 
     it("Multiplicacion", () => {
+        const m = 2;
+        const n = 3;
         // Escribe aquí tu código
 
         assert.strictEqual(m*n,6);
     })
 
     it("Division", () => {
+        const o = 27;
+        const p = 9;
         // Escribe aquí tu código
 
         assert.strictEqual(o/p,3);
     })
 
     it("Modulo: Investiga que es el operador modulo (%) en JavaScript para resolver este test", () => {
+        const q = 10;
+        const s = 9;
+        const r = 2;
         // Escribe aquí tu código
 
         assert.strictEqual(q % r,0);
@@ -82,6 +100,8 @@ describe("Comparaciones en JavaScript", () => {
     it("Usando el comparador de igualdad ===", () => {
         const number = 20;
         // Escribe aquí tu código
+        const expression = number === 10;
+
 
         assert.strictEqual(expression,false);
     })
@@ -89,6 +109,7 @@ describe("Comparaciones en JavaScript", () => {
     it("Usando el comparador de diferencia !==", () => {
         const language = "JavaScript";
         // Escribe aquí tu código
+        const expression = language !=='JavaScript'
 
         assert.strictEqual(expression,false);
     })
@@ -97,6 +118,8 @@ describe("Comparaciones en JavaScript", () => {
 describe("Algebra booleana", () => {
     it("Usando el operador AND (&&)", () => {
         // Escribe aquí tu código
+        const a = true;
+        const b = true;
 
         const expression = a && b;
 
@@ -105,6 +128,8 @@ describe("Algebra booleana", () => {
 
     it("Usando el operador OR (||)", () => {
         // Escribe aquí tu código
+        const c = false;
+        const d = false;
 
         const expression = c || d;
 
@@ -118,6 +143,9 @@ describe("Algebra booleana", () => {
 describe("Operaciones con JavaScript", () => {
     it("Completa las variables que faltan para pasar los tests, toca darle al coco!", () => {
         // Escribe aquí tu código
+        const a = 6;
+        const b = 5;
+        const c = 2;
 
         assert.strictEqual(a+b,11);
         assert.strictEqual(b+c,7);
@@ -126,6 +154,9 @@ describe("Operaciones con JavaScript", () => {
 
     it("Completa las variables que faltan para pasar los tests", () => {
         // Escribe aquí tu código
+        const d = 11;
+        const e = 2;
+        const f = 20;
 
         assert.strictEqual(d*e,22);
         assert.strictEqual(e*f,40);
@@ -133,6 +164,11 @@ describe("Operaciones con JavaScript", () => {
 
     it("Completa las variables que faltan para pasar los tests", () => {
         // Escribe aquí tu código
+        const a = 10;
+        const b = 100;
+        const c = undefined;
+        const d = 'Hello'
+        const e = "Ello"
 
         assert.strictEqual(a > 9, true);
         assert.strictEqual(a < 11, true);
