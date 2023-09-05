@@ -13,6 +13,8 @@ describe("Variables en JavaScript", () => {
    it("Pueden contener strings", () => {
 
         // Escribe aquí tu código para hacer pasar el "assert" del test
+        const a = "Hello!";
+        const b = "Somos la P7";
 
         assert.strictEqual(a, "Hello!");
         assert.strictEqual(b, "Somos la P7");
@@ -20,13 +22,17 @@ describe("Variables en JavaScript", () => {
 
    it("Pueden contener numeros", () => {
         // Escribe aquí tu código
+        const c= 2;
+        const d=1498;
+
         assert.strictEqual(c,2);
         assert.strictEqual(d,1498);
     })
 
     it("Pueden contener booleanos", () => {
         // Escribe aquí tu código
-
+        const e =true;
+        const f = false;
         assert.strictEqual(e,true);
         assert.strictEqual(f,false);
     })
@@ -34,49 +40,61 @@ describe("Variables en JavaScript", () => {
      it("Pueden contener decimales", () => {
         // Escribe aquí tu código
 
+        const g = 1.45;
+        const h = 45.99999
+
         assert.strictEqual(g,1.45);
         assert.strictEqual(h,45.99999);
     })
 })
 
 
-// SEGUNDA PARTE: En esta sección deberéis crear dos variables por cada test para hacer pasar los tests.
+// // SEGUNDA PARTE: En esta sección deberéis crear dos variables por cada test para hacer pasar los tests.
 
 describe("Operaciones aritmeticas en JavaScript", () => {
     it("Suma", () => {
         // Escribe aquí tu código
-
+       const  i=50
+       const j=50
         assert.strictEqual(i+j,100);
     })
 
     it("Resta", () => {
         // Escribe aquí tu código
+        const k=50;
+        const l=40;
 
         assert.strictEqual(k-l,10);
     })
 
     it("Multiplicacion", () => {
         // Escribe aquí tu código
+        const m=3;
+        const n=2;
 
         assert.strictEqual(m*n,6);
     })
 
     it("Division", () => {
         // Escribe aquí tu código
+        const o=3;
+        const p=1;
 
         assert.strictEqual(o/p,3);
     })
 
     it("Modulo: Investiga que es el operador modulo (%) en JavaScript para resolver este test", () => {
         // Escribe aquí tu código
-
+        const q=4;;
+        const s=5;
+        const r=2;
         assert.strictEqual(q % r,0);
         assert.strictEqual(s % r,1);
     })
 })
 
 
-// TERCERA PARTE: A partir de aquí, se nos complica un poco la tarea. Analiza bien qué pide cada test para saber qué variables debes crear y cómo.
+// // TERCERA PARTE: A partir de aquí, se nos complica un poco la tarea. Analiza bien qué pide cada test para saber qué variables debes crear y cómo.
 
 describe("Comparaciones en JavaScript", () => {
     it("Usando el comparador de igualdad ===", () => {
@@ -118,6 +136,9 @@ describe("Algebra booleana", () => {
 describe("Operaciones con JavaScript", () => {
     it("Completa las variables que faltan para pasar los tests, toca darle al coco!", () => {
         // Escribe aquí tu código
+        const a= 6;
+        const b= 5;
+        const c= 2;
 
         assert.strictEqual(a+b,11);
         assert.strictEqual(b+c,7);
@@ -126,13 +147,21 @@ describe("Operaciones con JavaScript", () => {
 
     it("Completa las variables que faltan para pasar los tests", () => {
         // Escribe aquí tu código
-
+        const d= 11;
+        const e= 2;
+        const f = 20;
         assert.strictEqual(d*e,22);
         assert.strictEqual(e*f,40);
     })
 
     it("Completa las variables que faltan para pasar los tests", () => {
         // Escribe aquí tu código
+
+        const a=10;
+        const b=100;
+        const c= undefined;
+        const d= "Hello";
+        const e = "Estrella"
 
         assert.strictEqual(a > 9, true);
         assert.strictEqual(a < 11, true);
